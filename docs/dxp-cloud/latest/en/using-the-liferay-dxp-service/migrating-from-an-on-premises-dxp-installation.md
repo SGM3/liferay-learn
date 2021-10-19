@@ -42,7 +42,7 @@ cd $LIFERAY_HOME/data && tar -czvf volume.tgz document_library
 ```
 
 ```important::
-   If you are currently using the `Amazon S3 <https://help.liferay.com/hc/en-us/articles/360028810172-Using-Amazon-Simple-Storage-Service>`_, `CMIS <https://help.liferay.com/hc/en-us/articles/360018176171-Using-the-CMIS-Store>`_, or `DBStore <https://help.liferay.com/hc/en-us/articles/360028810192-Using-the-DBStore>`_ storage methods, you must first migrate to a `File System Store <https://help.liferay.com/hc/en-us/articles/360028810132-Using-the-Simple-File-System-Store>`_.
+   If you are currently using the `Amazon S3 <https://help.liferay.com/hc/en-us/articles/360028810172-Using-Amazon-Simple-Storage-Service>`_, `CMIS <https://help.liferay.com/hc/en-us/articles/360018176171-Using-the-CMIS-Store>`_, or `DBStore <https://help.liferay.com/hc/en-us/articles/360028810192-Using-the-DBStore>`_ storage methods, you must first `configure <dxp/latest/en/system-administration/file-storage/configuring-file-storage.html#configuring-advanced-file-system-store>` and migrate to a `Advance File System Store <dxp/latest/en/system-administration/file-storage/configuring-file-storage.html>`_.
 ```
 
 ### Invoke Backup Service API
